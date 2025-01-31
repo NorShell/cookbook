@@ -1,7 +1,6 @@
-import { AddReciepe } from "./components/AddReciepe";
+import { AddEntry } from "./components/AddEntry";
 import { Chef } from "./components/Chef";
-import { ReciepeList } from "./components/ReciepeList";
-
+import { EntriesList } from "./components/EntriesList";
 
 
 export default function Home() {
@@ -10,11 +9,13 @@ export default function Home() {
       <Chef />
       <h1 className="text-5xl">Nor&apos;s Cook Book</h1>
       <h2 className="text-2xl" >Add your favourite reciepe for ... uhmmmm ... science </h2>
-      <AddReciepe />
+
+
+      <AddEntry />
       <span className="h-10" ></span>
       <section className="w-full lg:w-1/3" >
         <h2 className="text-2xl" >What I have collected so far</h2>
-        <ReciepeList />
+        <EntriesList />
       </section>
     </main>
   );
