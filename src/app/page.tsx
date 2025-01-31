@@ -6,7 +6,7 @@ import { ReciepeList } from "./components/ReciepeList";
 
 export default function Home() {
   return (
-    <main className="box-border w-full flex flex-col items-center justify-center gap-5 p-5 ">
+    <main className="box-border w-full flex flex-col items-center justify-center gap-5 p-5 no-scrollbar">
       <Chef />
       <h1 className="text-5xl">Nor&apos;s Cook Book</h1>
       <h2 className="text-2xl" >Add your favourite reciepe for ... uhmmmm ... science </h2>
