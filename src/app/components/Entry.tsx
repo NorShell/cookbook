@@ -10,7 +10,12 @@ const colors = [
   "red",
   "salmon",
   "marine",
-  "babyblue"
+  "babyblue",
+  "lila",
+  "jade",
+  "mint",
+  "beige",
+  "sand"
 ]
 
 function getRandomColor(): string {
@@ -27,7 +32,7 @@ interface Props {
 
 export function Entry({ entry }: Props) {
   return <li
-    className="flex items-center justify-start w-full gap-5 p-5 "
+    className="flex items-center justify-start w-full gap-5 p-5  "
   >
     <Image
       width={15}

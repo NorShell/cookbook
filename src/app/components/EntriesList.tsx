@@ -13,10 +13,13 @@ export async function EntriesList() {
   }
 
   if (entries.length === 0) {
-    return <p>No entries yet</p>
+    return <p className="text-center" >No entries yet .... </p>
   }
 
-  return <ul>
-    {entries.map(e => <Entry key={Math.random()} entry={e} />)}
-  </ul>
+  return <>
+    <h2 className="text-2xl" >What I have collected so far</h2>
+    <ul >
+      {entries.map(e => <Entry key={e.id} entry={e} />)}
+    </ul>
+  </>
 }

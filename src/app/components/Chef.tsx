@@ -6,5 +6,7 @@ export function Chef() {
     alt="Chef Nor"
     width={250}
     height={250}
+    placeholder="blur"
+    blurDataURL="/chefNoBg.PNG"
   />
 }
